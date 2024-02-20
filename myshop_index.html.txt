@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Shop Name</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="hearder">
+            <a href=""><div class="menubar">≡</div></a>
+            <a href=""><div class="shopname">SHOPNAME</div></a>
+            <a href=""><div class="gvg_logo">gvg_logo</div></a>
+            <a href=""><div class="cart">cart</div></a>
+        </div>
+        <div class="shop_bg">
+            <div class="sns_share">
+                <a href=""><div class="insta">insta</div></a>
+                <a href=""><div class="share">share</div></a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="profile_warp">
+            <div class="profile">
+                <div></div>
+                <div class="myring">
+                    <a href=""><div class="myring_display">마이링</div></a>
+                    <a href=""><div class="profile_img">프로필 이미지</div></a>
+                </div>
+                
+            </div>
+            <div class="myshop_propfile">
+                <p>사용자 이름</p>
+                <p>프로필 문구</p>
+            </div>
+        </div>
+            <div class="widget">
+                <div class="widget_icon">
+                    <a href=""><div class="like_w">좋아요</div></a>
+                    <a href=""><div class="myring_w">마이링</div></a>
+                    <a href=""><div class="stars">별점</div></a>
+                </div>
+                <div class="widget_counter">
+                    <div class="like_c">20</div>
+                    <div class="myring_c">75/100</div>
+                    <div class="stars_c">4.2/5</div>
+                </div>
+            </div>
+            <div class="board">
+                <ul class="board_item">
+                    <div class="board_info">
+                        <a href="#"><li class="board_name">board_name</li></a>
+                        <a href="#"><li class="board_like">like</li></a>
+                        <a href="#"><li class="board_like_c">1,800</li></a>
+                    </div>
+                    <div class="board_des">
+                        <a href="#"><span>#keyWod01</span></a>
+                        <a href="#"><span>#keyWod02</span></a>
+                        <a href="#"><span>#keyWod03</span></a>
+                    </div>
+                    <div class="board_main">
+                        <div class="thumbnail"></div>
+                        <ul>
+                            <a href="#"><li class="board_pcs"><img src="#" alt="board_pcs">1</li></a>
+                            <a href="#"><li class="board_pcs"><img src="#" alt="board_pcs">2</li></a>
+                            <a href="#"><li class="board_pcs"><img src="#" alt="board_pcs">3</li></a>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="">Ⅲ</a>
+            <a href="">○</a>
+            <a href="">＜</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+/*지정속송값*/
+:root{
+    --border_d:1px solid red;
+    --border_b:1px solid blue;
+}
+
+
+#wrap{
+    width: 499px;
+    height: 1080px;
+    border: var(--border_d);
+    margin: auto;
+}
+
+/* 헤더 */
+#hearder{
+    display: flex;
+    justify-content: space-between;
+    border: var(--border_d);
+    
+}
+
+#hearder a .menubar{}
+#hearder a .shopname{}
+#hearder a .gvg_logo{}
+#hearder a .cart{}
+
+/* 프로필 배경 */
+.shop_bg{
+    width: 100%;
+    height: 514px;
+    background-image: url("https://evalife.cc/wp-content/uploads/S__2859049-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 보드 프로필 */
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.main .profile_warp{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main .profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -64px;
+}
+/* 마이링 */
+.main .profile .myring{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 125px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: var(--border_b);
+    margin-right:-3px;
+    z-index: 1;
+}
+
+.main .profile .myring .profile_img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 3px;
+    right: 5px;
+}
+
+.main .profile .myring .myring_display{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:3px;
+    right: 3px;
+    
+}
+.main .profile .myring .profile_img{
+    background-image: url("https://www.tournews21.com/news/photo/202006/42605_75024_3110.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 7px;
+    right: 7px;  
+}
+
+/* sns 공유하기 */
+.shop_bg{
+    display: flex;
+    justify-content: flex-end;
+}
+.shop_bg .sns_share{
+    
+    
+    border: var(--border_d);
+}
+.shop_bg .sns_share .insta{
+    
+}
+.shop_bg .sns_share .share{}
+
+/* 프로필 이름 */
+.main .myshop_propfile{
+    border: var(--border_b);
+}
+
+.main .myshop_propfile p{
+  
+    
+}
+
+/* 보드 위젯 */
+.main .widget{
+    
+   
+} 
+.main .widget .widget_icon{
+    display: flex;
+    justify-content: space-between;
+    width: 419px;
+    height: 68px;
+    border: var(--border_b);
+} 
+.main .widget .widget_icon a .like_w{} 
+.main .widget .widget_icon a .myring_w{} 
+.main .widget .widget_icon a .stars{} 
+/* 위젯 카운터 */
+.main .widget .widget_counter{
+    display: flex;
+    justify-content: space-between;
+    width: 419px;
+    height: 68px;
+    border: var(--border_d);
+}
+.main .widget .widget_counter .like_c{} 
+.main .widget .widget_counter .myring_c{} 
+.main .widget .widget_counter .stars_c{}
+
+/* 보드 아이템 */
+.board{}
+.board .board_item{}
+.board .board_item .board_info{}
+.board .board_item .board_info a .board_name{}
+.board .board_item .board_info a .board_like{}
+.board .board_item .board_info a .board_like_c{}
+
+.board .board_item .board_des{}
+.board .board_item .board_des span{}
+
+.board .board_item .board_main{}
+.board .board_item .board_main .thumbnail{}
+.board .board_item .board_main ul{}
+.board .board_item .board_main ul a .board_pcs{}
+
+.footer{}
+.footer a{}
