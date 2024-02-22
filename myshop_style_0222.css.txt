@@ -1,0 +1,311 @@
+/*지정 속성값*/
+:root{
+    --border_r:1px solid red;
+    --border_b:1px solid blue;
+    --d_color:#81D8D0;
+    --d_border:1px solid #c2c2c2;
+}
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css); 
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+a, li, p{
+    text-decoration: none;
+    list-style: none;
+    color: #545454;
+}
+
+#wrap{
+    width: 499px;
+    height: 1080px;
+    /* border: var(--d_border); */
+    margin: auto;
+    position: relative;
+}
+
+/* 헤더 */
+#header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+#header .menubar, .shopname , .default_hearder {
+    height: 25px;
+    padding-top: 18px;
+    
+}
+#header .menubar {
+    margin-right: auto;
+    height: 25px;
+    margin-right: 153px;
+    
+}
+#header .menubar a img{
+    width: 25px;
+    height: 25px;
+    
+}
+#header .shopname{
+    /* margin-right: auto;
+    margin-left: auto; */
+    text-align: center;
+    font-size: 17px;
+    width: 143px;
+    height: 16px;
+    margin-right: 98px;
+}
+#header .default_hearder{
+    margin-left: auto;
+    
+}
+
+#header .default_hearder a:first-child img{
+    width: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+#header .default_hearder a:last-child {
+    width: 25px;
+    width: 25px;
+    margin-right: 22px;
+    margin-left: 8px;
+}
+
+/* 프로필 배경 */
+.shop_bg{
+    z-index: 1;
+    width: 100%;
+    height: 612px;
+    /* background-image: url("https://evalife.cc/wp-content/uploads/S__2859049-1.jpg"); */
+    background-image: url("https://lh3.googleusercontent.com/fife/AGXqzDlA5W5Nbi1l_YtqaN3XfX1UJ81J_jV3XUfg-h-zLkYUPrA5hskfPtst2u1xXrKWLSVPAIBvYH-DsARsogjLeBVMWhJtUbUjAEuH0aGadwRztb-BJZ8QdGloJBgs9qApbvgfd5kkCnghSq00NXaBkIyJWy1Cg8XXc16VizejKUbT1lYwXG_lpP9p9JXQv1NZ0i9t5Fs75RzjdW4Edtf3x0WjBk9yEA0s7aAPNfKU6zGHbBrCtMCl9hXeYfyQNIbhCobUavzsyI0FPBL-h-BOId6iuXBZVcw0BzdcKksH25JsHKa37dV2IhW_dIRIAdrT6snpgsn-0z0rPx-XWvbImTVoMk-PoVT9x4tBNRYZ8TUTY-TjqQ9w1wZ0yASeykeKv5x-_kNg_QhS6aptS7-VhYoV8P5FOFg2X4rY6KhjP_CuRvZChYWviWtJmkiTAzk514_qZJcU4IX3Qia1S7l3O-lTbbGBsHQhJBWn9bF7FUbJKUwCLBRRtRju_lchcWPeX72X5diKnBcsO38mGr4smwAKddOSD-oTcwbvCalp_GjCPPjDQ3-bUJkxf-rscGC6KcfQAkA-k5vZVNvdX_Myho5e51Eux6lcNlVT4OKD_xjnXLrBnxDkstEEeJjJ-b8rgJEhKobzd3FDH5a_VcDwsAD6v_kiRwNiudqZiXhOlGG9hkNox8Ll_D0E7B-k-nl4zJIqvkFqsCGYcNs3z7czYwllBpy1uf83Xk5VQa33dEpSOaK_wT9NdiXd7RE3m0DwLEHnx0VuTenezZ3l4Xs8N1KNxJgn7H-gQORheVDZxJMHzgLdg8EDBGmy0BqTzmXAYBvj61VzkUJbDS424ypHzDWFkJoVA3bFguN-iE_O4xgL3gzg8XkIc9oiZfenXtZgJVwOPrV7q2-MiZTNC8vYK86uCq2grKACwx2EEtzoZZLx1Gh-3AK6uqV1Gp6wzqsaQZHR5s48ltqNNzuqUUZyVL8sdc1dr5n0UAv3Hn9rAXSt7gbXL8mLY9SDCBLI2e0s9sz7TPq1EvBnZdOWCIq-CG15lhzeByrLyOvVqpu6HUm03J36ExV6MgAU2hCpPFcvhg1e2xWizdfWcSXeAhU9W3ub4Vk8lQwh1bMoqx-wDuM6LPDBsKxlUQYr6xKmmPk5iNJMajgSf84pDRQb9i_AUtaiMxjyORbyi8d4PyeY3iAUTlZOQykgl7WVz8sNEcZiBc6c-hUTzC13TCk4sRDiHS58x6kkp2xzWYGR1kfUounlnd_bP4sdA_vXcfBWfWSGdtmZECx5fv0f7Y7W0rC9X1UXPbe9kyr_YHsbyWmbWVZ-7AIz4EmjbAcxVc1ucclT2jFwSq7zvE4F48b62YpZku0VUpLs8ntLfE-oOZX8RD8fft3fp0VWSdCvNhATxXoRQuJXq54CoaEIuCeS-kbDLM82lzo_Ll6TxsDmOLaCyMCzM0O_ah4DNlIeasbcidomrrRmR5sQWBEdeRTvlsfmo-LHChBDFxgr4ZzBCmXpQXfcwFpq12VqF9sKmgqckOiRW9gO_eGODt6GjGs=w1920-h919");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    /* border: var(--border_r); */
+}
+
+/*=========삭제========  */
+.shop_bg:after {
+    content: '';
+    display: block;
+    height: 1px; 
+    width: 100%;  
+    background:red;
+    position: absolute;
+    top: 550px;  
+}
+
+
+/* sns 공유하기 */
+.shop_bg .sns_share {
+    position: absolute;  
+    right: 0;  
+    bottom: 0;  
+    display: flex;
+}
+.sns_share .insta{
+    margin-right: 5px;
+}
+
+
+/* 보드 프로필 */
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main .profile_warp{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main .profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -64px;
+}
+
+/* 마이링 BGIMG*/
+.main .profile .myring{
+    /* border: var(--border_b); */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+    height: 124px;
+    background-color:white;
+    border-radius: 50%;
+    margin-right:-3px;
+    z-index: 2;
+    margin-top: 3px;
+}
+
+
+/* ====삭제===== */
+/* .main .profile .myring::before {
+    content: "";
+    position: absolute;
+    width: 103px; 
+    height: 103px; 
+    border: var(--border_r);
+    border-radius: 50%;
+} */
+
+
+
+.main .profile .myring .profile_img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 3px;
+    right: 5px;
+}
+
+
+
+.main .profile .myring .myring_display{
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+    background-color: #c2c2c2;
+    z-index: 3;
+    /* position: absolute;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;     
+    top:3px;
+    right: 3px;  */
+}
+
+.main .profile .myring .myring_counter{
+    width: 103px; 
+    height: 103px; 
+    border: 3px solid red;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+
+
+.main .profile .myring .profile_img{
+    background-image: url("https://www.tournews21.com/news/photo/202006/42605_75024_3110.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 4;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 14px;
+    right: 14px;  
+}
+
+
+
+/* 프로필 이름 */
+.main .myshop_propfile{
+
+}
+
+.main .myshop_propfile p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.main .myshop_propfile p:last-child{
+    margin-bottom: 10px;
+    
+}
+
+/* 보드 위젯 */
+.main .widget{
+    
+   
+} 
+.main .widget .widget_icon{
+    display: flex;
+    justify-content: space-between;
+    width: 419px;
+    height: 68px;
+    
+} 
+.main .widget .widget_icon a .like_w{} 
+.main .widget .widget_icon a .myring_w{} 
+.main .widget .widget_icon a .stars{} 
+
+/* 위젯 카운터 */
+.main .widget .widget_counter{
+    display: flex;
+    justify-content: space-between;
+    width: 419px;
+    height: 40px;
+    
+}
+.main .widget .widget_counter p{
+    line-height: 10px;
+}
+
+/* 보드 아이템 */
+.board{
+    display: flex;
+    align-self: flex-start;
+    
+}
+.board .board_item{
+  
+}
+.board .board_item .board_info{
+    display: flex;
+    justify-content: flex-start;
+}
+.board .board_item .board_info a{
+    margin-right: 5px; 
+}
+.board .board_item .board_info a .board_name{}
+.board .board_item .board_info a .board_name{}
+.board .board_item .board_info a .board_like{}
+.board .board_item .board_info a .board_like_c{}
+
+/* 보드 해쉬태그 */
+.board .board_item .board_des{}
+.board .board_item .board_des span{}
+
+/* 보드 해쉬태그 */
+.board .board_item .board_main{}
+.board .board_item .board_main .thumbnail{
+    
+    width: 100%;
+}
+.board .board_item .board_main ul{
+    padding: 0;
+}
+.board .board_item .board_main ul a .thumbnail_bd{
+    display: flex;
+    justify-self: flex-start;
+    padding-right: 38px;
+}
+.board .board_item .board_main ul a .thumbnail_bd img{
+    
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+
+    
+}
+
+.footer{}
+.footer a{}
